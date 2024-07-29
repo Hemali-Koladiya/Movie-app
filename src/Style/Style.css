@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Movie page css */
+
+.movie_card_page .cards .card{
+    width: 280px;
+    background: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 15px 15px 5px 5px;
+    overflow: hidden;
+    box-shadow: 5px 2px 5px 0px rgb(186, 185, 185);
+}
+.movie_card_page .cards .card .image_box{
+    height: 350px;
+    overflow: hidden;
+}
+.movie_card_page .cards .card .title_box{
+   background: rgb(0, 0, 0);
+   font-size: 20px;
+   word-wrap: wrap;
+   text-decoration: none !important;
+}
+.search_page .heading_font{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(56, 55, 55);
+}
+.search_page .input_box input{
+    outline: none !important;
+    border-radius: 10px;
+    padding: 7px 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(186, 184, 184);
+}
+
+
+
+
+/* Singal MOvie Card */
+.background{
+    min-height: 100vh;
+    background-color: rgb(34, 128, 222);
+}
+
+.singalmovie_card .movie_card{
+    border-radius: 10px;
+}
+.singalmovie_card .movie_card .image_box img{
+    width: 250px;
+    border-radius: 10px;
+}
+.singalmovie_card .movie_card .movie_content .movie_title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(65, 146, 227);
+}
+.singalmovie_card .movie_card .movie_content .movie_detail{
+    font-size: 16px;
+}
+.singalmovie_card .movie_card .movie_content .back_btn{
+    background-color: rgb(65, 146, 227);
+}
+
+.input_box {
+    position: relative;
+  }
+  
+  .suggestions-container {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+
+
+
+  @media screen and (max-width : 768px){
+    .search_page .input_box input{
+        width: 100% !important;
+    }
+  }
